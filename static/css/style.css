@@ -1,0 +1,179 @@
+.navbar{
+    background-color: #333;
+    color:#fff;
+
+}
+.head{
+    background-color: brown;
+    text-align :center;
+    color:white;
+    padding:10px;
+ 
+}
+.container-fluid{
+    width:40%;
+}
+.About{
+    background-color:chocolate;
+    color:white;
+    padding:20px;
+    margin:10px;
+
+}
+.table{
+    background-color:blue;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
+.div{
+    background-color:brown;
+    color:white;
+    padding : 50px;
+
+}
+.button-style {
+    background-color:blue;
+    color:white;
+    width:150px;
+    height:50px;
+    border-radius:20px;
+
+}
+.button-style a{
+    color:white;
+}
+.image-home{
+    width:100%;
+    height:50%;
+}
+.register{
+    background-color:blue;
+    padding:20px;
+   
+
+}
+.labels{
+    color:white;
+}
+.para{
+    background-color:blue;
+    color:white;
+    padding:20px;
+    margin:10px;
+}
+.nav-link{
+    color:black;
+}
+.navbar-nav{
+    color:blue;
+
+}
+.table{
+    padding:100px;
+    background-color:lightblue;
+    margin : 30px;
+}
+.image{
+    width:1350px;
+    height:400px;
+}
+.image-1{
+    width:400px;
+    height:300px;
+    padding:20px;
+}
+.img{
+    margin:20px;
+}
+.photos{
+    margin:30px;
+}
+.container{
+    margin:20px;
+}
+.iframe{
+    margin:20px;
+}
+.address{
+    width:50%;
+    background-color:aqua;
+    margin:20px;
+    padding:20px;
+}
+.login-form{
+    width:50%;
+    background-color:aqua;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+    margin-right:20px;
+
+    
+}
+.contact-form{
+    background-color:aqua;
+    margin-left:250px;
+    margin-right:250px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border:3px,dotted black;
+    border-radius:50px;
+}
+.space{
+    margin:20px;
+}
+.button{
+    background-color:yellowgreen;
+    color:white;
+    padding:10px;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+.heading{
+    background-color:yellow;
+    padding:30px;
+    color:black;
+    margin:10px;
+}
+.navbar-nav li a{
+    color:black;
+    text-decoration:none;
+    font-weight :bold
+
+}
+.navbar-nav li{
+    color:black;
+}
+
+.cf{
+    background-color:chocolate;
+    color:white;
+    padding : 30px;
+
+}
+.yam{
+    font-size : 30px;
+}
+.contact-bar{
+    width:100%;
+    display: flex;
+}
+.gallery{
+    width:100%;
+    display:flex;
+   
+}
+.photo{
+    width:25%;
+    margin:5px;
+}
+form{
+    background-color:pink;
+}
+.navbar-nav li a{
+    padding-left:20px;
+}

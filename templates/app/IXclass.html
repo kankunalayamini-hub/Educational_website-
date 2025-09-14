@@ -1,0 +1,53 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block body_block %}
+
+
+<h1 class="heading">Welcome to IX Class </h1>
+<div class="e">
+
+  <div class="row">
+    <div class="f">
+      <p><b>
+        At ABC School, we are committed to delivering an engaging and inspiring learning experience. 
+        Our 8th-grade program combines strong academic foundations with real-world skill-building 
+        in areas like Fullstack Development, Python, Web Design, and more. Join us to unlock your 
+        potential and prepare for a bright future.ABC School is a place where learning comes alive. We are committed to providing a safe, nurturing, and academically  and emotionally. Our dedicated faculty,  modern facilities empower every student to discover their potential and pursue excellence. At ABC School, we not only focus on academics but also emphasize moral values, creativity, and extracurricular activities to shape well-rounded individuals. Join us and become a part of a thriving community that prepares children for a successful future.
+      </b></p>
+
+    </div>
+
+    <div class="vi">
+      <iframe src="https://www.youtube.com/embed/CpD2VtPNIaY" 
+              title="Class 8 Introduction Video" 
+              allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<h2 class="heading">Classrom</h2>
+   <div class="img">
+      <img src="{% static 'images/pic-6.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic-2.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic-3.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic4.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic-5.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic-6.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic-7.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic-1.jpeg' %}" alt=" image" class ="image-1">
+      <img src="{% static 'images/pic-5.jpeg' %}" alt=" image" class ="image-1">
+
+      
+   </div>
+
+<center>
+  <div class = 'div'>
+    <h5>still Hunting for a job?</h5>
+    <p>Elearn Infotech is a Realtime Training Comany offering Cousre on varied IT Technologies like Fullstack Development,python,React JS,Node JS,Web Design & PHP with MYSQL,Digital Marketing</p>
+    <button class ='button-style'><a href="{% url 'contact_us' %}"> Register</a></button>
+</div>
+</center>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block body_block %}
+<center>
+
+<div class="form"> 
+  <h1 class="parent">Parent Registration Form</h1>
+  <form method="post" class = 'cf'>
+    {% csrf_token %}
+    <b>{{ f.as_p }}</b>
+    <button type="submit"  class="button-style">Submit</button>
+  </form>
+</div>
+</center>
+{% endblock %}
+

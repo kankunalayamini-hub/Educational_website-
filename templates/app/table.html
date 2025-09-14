@@ -1,0 +1,58 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block body_block %}
+
+<h2 class="h">Student Data</h2>
+<table border="2px" class = 'table'>
+  <thead>
+    <tr >
+      <th>Name</th>
+      <th>Age</th>
+      <th>Class</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for i in s %}
+    <tr>
+      <td>{{ i.name }}</td>
+      <td>{{ i.phone }}</td>
+      <td>{{ i.email }}</td>
+      <td>{{ i.msg }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<h2 class="h">Parent Data</h2>
+<table border="2px" class="table">
+  <thead >
+
+    <tr>
+      <th>Parent Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Student Name</th>
+      <th>MESSAGE</th>
+    </tr>
+
+  </thead>
+  <tbody>
+
+    {% for i in p %}
+
+    <tr>
+      <td>{{ i.name }}</td>
+      <td>{{ i.phone}}</td>
+      <td>{{ i.email}}</td>
+      <td>{{i.stname }}</td>
+      <td>{{i.msg  }}</td>
+    </tr>
+
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
